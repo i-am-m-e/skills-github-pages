@@ -404,7 +404,23 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
       <span class="pill">Health Care Management</span>
     </div>
   </section>
-
+  
+<section class="section-card">
+    <h2 class="section-title">Writing &amp; Reflections</h2>
+    <ul class="highlight-list">
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}" style="color: #007C41; font-weight: 600; text-decoration: none;">
+            {{ post.title }}
+          </a>
+          <span style="color: #64748b; font-size: 0.85rem; margin-left: 0.5rem;">
+            · {{ post.date | date: "%B %-d, %Y" }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  
   <section class="collab-box">
     <h2>Let’s Collaborate</h2>
     <p>
