@@ -312,7 +312,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   </section>
 
   <div class="site-footer-note">
-    Edmonton, Alberta · University of Alberta Faculty of Nursing
+    Based in Alberta
   </div>
 
 </div>I
