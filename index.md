@@ -6,7 +6,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
-  /* 1. Hide default GitHub Pages / Jekyll theme chrome */
+  /* Hide default GitHub Pages / Jekyll theme chrome */
   header,
   footer,
   .site-header,
@@ -17,7 +17,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     display: none !important;
   }
 
-  /* 2. Reset theme containers & apply premium background */
+  /* Reset theme containers & apply background */
   html, body {
     margin: 0 !important;
     padding: 0 !important;
@@ -46,7 +46,6 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   :root {
     --emerald: #007C41;
     --emerald-light: #10b981;
-    --deep-forest: #091e17;
     --ink: #0f172a;
     --muted: #475569;
     --surface: #ffffff;
@@ -54,26 +53,24 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   }
 
   .page-shell {
-    max-width: 920px;
+    max-width: 880px;
     margin: 0 auto;
     padding: 2.5rem 1.25rem 4rem;
   }
 
-  /* 3. Premium Dark Hero */
+  /* Hero */
   .hero {
     background: linear-gradient(135deg, #091e17 0%, #102a22 55%, #0f172a 100%);
     color: #ffffff;
     border-radius: 24px;
-    padding: 3.5rem 2.25rem;
+    padding: 3.25rem 2.25rem;
     text-align: center;
     box-shadow: 0 20px 50px rgba(9, 30, 23, 0.18);
-    position: relative;
-    overflow: hidden;
   }
 
   .hero-avatar {
-    width: 128px;
-    height: 128px;
+    width: 124px;
+    height: 124px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid rgba(255, 255, 255, 0.25);
@@ -83,7 +80,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
 
   .hero-eyebrow {
     display: inline-block;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -97,7 +94,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
 
   .hero h1 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-size: clamp(2rem, 4vw, 2.7rem);
     font-weight: 700;
     color: #ffffff !important;
     margin: 0 0 0.6rem;
@@ -106,9 +103,9 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   }
 
   .hero-subtitle {
-    font-size: 1.05rem;
+    font-size: 1.03rem;
     color: #cbd5e1;
-    max-width: 620px;
+    max-width: 600px;
     margin: 0 auto 1.75rem;
     line-height: 1.6;
   }
@@ -123,7 +120,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
 
   .btn {
     display: inline-block;
-    padding: 0.7rem 1.45rem;
+    padding: 0.68rem 1.4rem;
     border-radius: 999px;
     font-size: 0.9rem;
     font-weight: 600;
@@ -155,12 +152,12 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     background: rgba(255, 255, 255, 0.16);
   }
 
-  /* 4. Key Metrics Strip */
+  /* Metrics Strip */
   .stats-bar {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    margin: 1.5rem 0 2.5rem;
+    margin: 1.5rem 0 2.25rem;
   }
 
   .stat-card {
@@ -174,7 +171,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
 
   .stat-value {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     font-weight: 700;
     color: var(--emerald);
     line-height: 1.2;
@@ -187,49 +184,45 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     margin-top: 0.25rem;
   }
 
-  /* 5. Content Sections */
+  /* Content Sections */
   .section-card {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 20px;
     padding: 2rem;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 6px 24px rgba(15, 23, 42, 0.04);
   }
 
   .section-title {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     font-weight: 700;
     color: var(--ink) !important;
-    margin: 0 0 1.25rem !important;
-    padding-bottom: 0.6rem;
+    margin: 0 0 1.15rem !important;
+    padding-bottom: 0.55rem;
     border-bottom: 1px solid var(--border) !important;
   }
 
   .section-card p {
     color: #334155;
     font-size: 0.98rem;
-    line-height: 1.75;
-    margin: 0 0 1rem;
-  }
-
-  .section-card p:last-child {
-    margin-bottom: 0;
+    line-height: 1.72;
+    margin: 0;
   }
 
   /* 2-Column Focus Grid */
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.25rem;
+    gap: 1.15rem;
   }
 
   .focus-card {
     background: #f8faf9;
     border: 1px solid var(--border);
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 1.4rem;
     transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
 
@@ -240,17 +233,16 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   }
 
   .focus-card h3 {
-    margin: 0 0 0.5rem !important;
-    font-size: 1.05rem;
+    margin: 0 0 0.45rem !important;
+    font-size: 1.03rem;
     font-weight: 700;
     color: var(--emerald) !important;
   }
 
   .focus-card p {
-    margin: 0;
-    font-size: 0.92rem;
+    font-size: 0.91rem;
     color: var(--muted);
-    line-height: 1.65;
+    line-height: 1.62;
   }
 
   /* Highlights & Credentials */
@@ -261,9 +253,9 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   }
 
   .highlight-list li {
-    padding: 0.85rem 0;
+    padding: 0.75rem 0;
     border-bottom: 1px solid var(--border);
-    font-size: 0.95rem;
+    font-size: 0.94rem;
     color: #334155;
   }
 
@@ -276,8 +268,8 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 1.5rem;
-    padding-top: 1.25rem;
+    margin-top: 1.25rem;
+    padding-top: 1.15rem;
     border-top: 1px solid var(--border);
   }
 
@@ -287,41 +279,32 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     border: 1px solid #a7f3d0;
     font-size: 0.8rem;
     font-weight: 600;
-    padding: 0.35rem 0.85rem;
+    padding: 0.32rem 0.8rem;
     border-radius: 999px;
   }
 
-  /* 6. Collaboration CTA */
+  /* Collaboration CTA */
   .collab-box {
     background: linear-gradient(135deg, #0f172a 0%, #091e17 100%);
     color: #f8fafc;
     border-radius: 22px;
-    padding: 2.5rem 2.25rem;
+    padding: 2.25rem;
     box-shadow: 0 18px 40px rgba(15, 23, 42, 0.14);
   }
 
   .collab-box h2 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.65rem;
+    font-size: 1.55rem;
     color: #ffffff !important;
     margin: 0 0 0.75rem !important;
     border: none !important;
   }
 
-  .collab-box p,
-  .collab-box li {
+  .collab-box p {
     color: #cbd5e1;
-    font-size: 0.95rem;
+    font-size: 0.96rem;
     line-height: 1.7;
-  }
-
-  .collab-box ul {
-    padding-left: 1.2rem;
-    margin: 1rem 0 1.75rem;
-  }
-
-  .collab-box li {
-    margin-bottom: 0.5rem;
+    margin: 0 0 1.5rem;
   }
 
   .collab-box strong {
@@ -332,7 +315,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     text-align: center;
     font-size: 0.82rem;
     color: #64748b;
-    margin-top: 2.5rem;
+    margin-top: 2.25rem;
   }
 </style>
 
@@ -343,7 +326,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
     <div><span class="hero-eyebrow">Edmonton, Alberta · University of Alberta</span></div>
     <h1>Mohamed Elandry, BScN, RN, ENC(C)</h1>
     <p class="hero-subtitle">
-      Nurse Practitioner Student, Emergency &amp; Urgent Care Leader, and Health AI Researcher bridging frontline clinical care with human-centered innovation.
+      Nurse Practitioner Student, Emergency &amp; Urgent Care Leader, and Health AI Researcher bridging frontline care with human-centered innovation.
     </p>
     <div class="btn-group">
       <a href="mailto:moheland@ualberta.ca" class="btn btn-primary">Get in Touch</a>
@@ -355,67 +338,53 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   <div class="stats-bar">
     <div class="stat-card">
       <div class="stat-value">12,500+</div>
-      <div class="stat-label">Clinical Hours</div>
+      <div class="stat-label">Clinical Hours (Urban &amp; Rural ED)</div>
     </div>
     <div class="stat-card">
-      <div class="stat-value">4.0 / 4.0</div>
-      <div class="stat-label">MN (NP) GPA</div>
+      <div class="stat-value">MN (NP)</div>
+      <div class="stat-label">Family / All Ages · U of A</div>
     </div>
     <div class="stat-card">
-      <div class="stat-value">ENC(C)</div>
-      <div class="stat-label">Emergency Certified</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-value">AI + Health</div>
-      <div class="stat-label">Ethics &amp; QI Research</div>
+      <div class="stat-value">ARNET 2026</div>
+      <div class="stat-label">Karen Polowick Leadership Award</div>
     </div>
   </div>
 
   <section class="section-card">
-    <h2 class="section-title">About Me</h2>
+    <h2 class="section-title">About</h2>
     <p>
-      I’m a <strong>Master of Nursing (Nurse Practitioner — Family/All Ages)</strong> student at the
-      <strong>University of Alberta</strong> and an <strong>Assistant Head Nurse</strong> in Family &amp; Urgent Care
-      at the East Edmonton Health Centre.
-    </p>
-    <p>
-      With over <strong>12,500 clinical hours</strong> across urban trauma centres, urgent care, and rural Northern Alberta
-      emergency departments, my work sits at the intersection of <strong>frontline clinical excellence, health technology, and nursing education</strong>.
-      Whether I’m teaching ultrasound-guided IV access, investigating the ethics of AI scribes in emergency medicine, or exploring
-      existentialist frameworks for nurse burnout, I’m driven by one question: <em>how do we build healthcare systems where both
-      patients and clinicians can thrive?</em>
+      I’m an <strong>Assistant Head Nurse</strong> in Family &amp; Urgent Care at the East Edmonton Health Centre and a
+      <strong>Nurse Practitioner student</strong> at the University of Alberta. Shaped by emergency and acute care practice across
+      urban trauma centres and rural Northern Alberta, my work focuses on a single question:
+      <em>how do we build healthcare systems where both patients and clinicians can thrive?</em>
     </p>
   </section>
 
   <section class="section-card">
-    <h2 class="section-title">Focus Areas &amp; Current Work</h2>
+    <h2 class="section-title">Focus Areas</h2>
     <div class="card-grid">
       <div class="focus-card">
         <h3>Health AI &amp; Ethics</h3>
         <p>
-          Graduate Research Assistant investigating the <strong>ethics of AI scribes in Edmonton Emergency Departments</strong>
-          (U of A Faculty of Nursing). Member of the AI + Health Hub and national CASN webinar panelist on AI in graduate nursing.
+          Investigating the ethics of AI scribes in Edmonton emergency departments as a Graduate Research Assistant, and contributing to the U of A AI + Health Hub.
         </p>
       </div>
       <div class="focus-card">
         <h3>Clinical Leadership &amp; QI</h3>
         <p>
-          Assistant Head Nurse &amp; Staff Educator leading Connect Care optimization, the <strong>Complex Care Pathway</strong>
-          quality improvement initiative for underserved populations, and provincial ED working groups.
+          Leading Connect Care optimization, the Complex Care Pathway for underserved patients, and provincial emergency department working groups.
         </p>
       </div>
       <div class="focus-card">
         <h3>Research &amp; Philosophy</h3>
         <p>
-          Co-Investigator on a national survey of <strong>critical incident reporting</strong> in Canadian undergraduate nursing.
-          Sole author of a manuscript applying <strong>existentialist philosophy</strong> (Sartre, Camus, Heidegger, Merleau-Ponty) to nurse burnout.
+          Co-investigating critical incident reporting across Canadian nursing programs and authoring a manuscript applying existentialist philosophy to nurse burnout.
         </p>
       </div>
       <div class="focus-card">
         <h3>Teaching &amp; Mentorship</h3>
         <p>
-          Graduate Teaching Assistant (Indigenous Health; Anatomy &amp; Physiology), POCUS IV instructor, Elsevier peer reviewer,
-          and MentorUs peer mentor for graduate nursing students.
+          Graduate Teaching Assistant (Indigenous Health; Anatomy &amp; Physiology), ultrasound-guided IV instructor, Elsevier peer reviewer, and MentorUs peer mentor.
         </p>
       </div>
     </div>
@@ -424,13 +393,11 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   <section class="section-card">
     <h2 class="section-title">Selected Highlights &amp; Credentials</h2>
     <ul class="highlight-list">
-      <li><strong>2026 Karen Polowick Leadership Award</strong> — Alberta Registered Nurses Educational Trust (ARNET)</li>
-      <li><strong>National Panelist (CASN, 2026)</strong> — <em>AI Use in Learning in Graduate Studies</em></li>
-      <li><strong>Lead Presenter &amp; Co-Facilitator</strong> — <em>"See It, Stick It: POCUS IV"</em>, Provincial Urgent Care Conference</li>
+      <li><strong>CASN National Webinar Panelist (2026)</strong> — <em>AI Use in Learning in Graduate Studies</em></li>
+      <li><strong>Lead Presenter &amp; Workshop Co-Facilitator</strong> — <em>"See It, Stick It: POCUS IV"</em>, Provincial Urgent Care Conference</li>
       <li><strong>Conference Presenter (U of A, 2026)</strong> — <em>"Know Thyself: Existentialism as a Response to Depersonalization in Nursing Practice"</em></li>
     </ul>
     <div class="pill-row">
-      <span class="pill">ENC(C)</span>
       <span class="pill">POCUS IV/IO Instructor</span>
       <span class="pill">ACLS · PALS · TNCC · CTAS · NRP</span>
       <span class="pill">AHS Improvement Way (QI)</span>
@@ -440,13 +407,11 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
 
   <section class="collab-box">
     <h2>Let’s Collaborate</h2>
-    <p>I’m always open to connecting with clinicians, researchers, educators, and health-tech builders. Reach out if you’re interested in:</p>
-    <ul>
-      <li><strong>Health AI &amp; Digital Health:</strong> Qualitative research, workflow integration, or ethical evaluation of AI in acute/primary care.</li>
-      <li><strong>Nursing &amp; Medical Education:</strong> POCUS workshops, curriculum innovation, or graduate mentorship.</li>
-      <li><strong>Quality Improvement &amp; Health Equity:</strong> Expanding preventive care pathways and improving patient/clinician experiences.</li>
-      <li><strong>Speaking &amp; Writing:</strong> Panels, interdisciplinary conferences, or manuscripts at the intersection of healthcare, tech, and humanities.</li>
-    </ul>
+    <p>
+      Open to connecting with clinicians, researchers, educators, and health-tech builders on
+      <strong>health AI &amp; digital workflows</strong>, <strong>POCUS &amp; nursing education</strong>,
+      <strong>quality improvement</strong>, and <strong>interdisciplinary speaking or writing</strong>.
+    </p>
     <div class="btn-group" style="justify-content: flex-start;">
       <a href="mailto:moheland@ualberta.ca" class="btn btn-primary">Email Mohamed</a>
       <a href="https://linkedin.com/in/mohamed-elandry" class="btn btn-glass" target="_blank">Connect on LinkedIn</a>
@@ -454,7 +419,7 @@ title: Mohamed Elandry, BScN, RN, ENC(C)
   </section>
 
   <div class="site-footer-note">
-    Mohamed Elandry · Edmonton, Alberta · University of Alberta Faculty of Nursing
+    Mohamed Elandry · Edmonton, Alberta
   </div>
 
 </div>
